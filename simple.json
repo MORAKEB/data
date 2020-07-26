@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    {"id": "FR", "group": 1},
+    {"id": "DE", "group": 1},
+    {"id": "US", "group": 2},
+    {"id": "FL", "group": 1},
+    {"id": "GB", "group": 1},
+    {"id": "CA", "group": 2},
+    {"id": "MX", "group": 2}
+  ],
+  "links": [
+    {"source": "FR", "target": "DE", "value": 1},
+    {"source": "FR", "target": "US", "value": 3},
+    {"source": "FR", "target": "MX", "value": 3},
+    {"source": "FR", "target": "CA", "value": 1},
+    {"source": "DE", "target": "US", "value": 2},
+    {"source": "DE", "target": "CA", "value": 3},
+    {"source": "US", "target": "FL", "value": 1},
+    {"source": "US", "target": "GB", "value": 1},
+    {"source": "US", "target": "MX", "value": 2},
+    {"source": "CA", "target": "GB", "value": 1},
+    {"source": "CA", "target": "MX", "value": 4},
+    {"source": "GB", "target": "DE", "value": 1},
+    {"source": "FL", "target": "FR", "value": 1},
+    {"source": "MX", "target": "FL", "value": 1}
+  ]
+}
