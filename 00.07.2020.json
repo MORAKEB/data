@@ -2,7 +2,7 @@
 {
   "name": "main.a.canada",
   "size": 3938,
-  "imports": ["main.b.Mexique","main.c.USA","main.l.japan","main.m.Albanie","main.p.France","main.q.Italie","main.t.Venezuela","main.u.Iran"]
+  "imports": ["main.b.Mexique","main.c.USA","main.l.japan","main.c.USA","main.m.Albanie","main.p.France","main.q.Italie","main.t.Venezuela","main.u.Iran"]
 }, {
   "name": "main.b.Mexique",
   "size": 3938,
@@ -10,7 +10,7 @@
 }, {
   "name": "main.c.USA",
   "size": 3938,
-  "imports": ["main.d.équateur","main.e.Nigeria","main.f.Allemagne","main.g.Australie","main.h.Espagne","main.i.Inde","main.l.japan","main.m.Albanie","main.p.France","main.q.Italie","main.o.Malaisie","main.u.Iran"]
+  "imports": ["main.d.équateur","main.c.USA","main.e.Nigeria","main.c.USA","main.f.Allemagne","main.a.canada","main.g.Australie","main.h.Espagne","main.i.Inde","main.l.japan","main.m.Albanie","main.p.France","main.q.Italie","main.o.Malaisie","main.u.Iran"]
 }, {
   "name": "main.d.équateur",
   "size": 3938,
@@ -162,4 +162,3 @@
   "imports": ["main.o.Malaisie"]
 }
 ]
-
